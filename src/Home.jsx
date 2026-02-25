@@ -24,10 +24,12 @@ function Home() {
       <div className="flex-1 flex flex-col lg:flex-row p-4 lg:p-8 gap-6 lg:gap-8">
         {/* ===== Architect Panel ===== */}
         <div
-          className="w-full lg:w-1/2 relative cursor-pointer group overflow-hidden 
-                     rounded-2xl border border-neutral-700 
-                     hover:border-[#D4AF37] 
-                     transition-all duration-500"
+          className="w-full lg:w-1/2 
+           h-[320px] sm:h-[380px] md:h-[420px] lg:h-auto
+           relative cursor-pointer group overflow-hidden
+           rounded-2xl border border-neutral-700
+           hover:border-[#D4AF37]
+           transition-all duration-500"
           onClick={() => navigate("/business")}
         >
           {/* Background Image */}
@@ -75,10 +77,12 @@ function Home() {
 
         {/* ===== Sport Panel ===== */}
         <div
-          className="w-full lg:w-1/2 relative cursor-pointer group overflow-hidden 
-                     rounded-2xl border border-neutral-700 
-                     hover:border-[#D4AF37] 
-                     transition-all duration-500"
+          className="w-full lg:w-1/2 
+           h-[320px] sm:h-[380px] md:h-[420px] lg:h-auto
+           relative cursor-pointer group overflow-hidden
+           rounded-2xl border border-neutral-700
+           hover:border-[#D4AF37]
+           transition-all duration-500"
           onClick={() => navigate("/sport")}
         >
           {/* Background Image */}
