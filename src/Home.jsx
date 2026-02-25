@@ -6,11 +6,11 @@ function Home() {
   return (
     <div className="min-h-screen lg:h-screen bg-[#0F0F0F] text-[#F5F5F5] flex flex-col">
       {/* ===== Identity Section (Top) ===== */}
-      <div className="text-center pt-12">
+      <div className="text-center pt-8 md:pt-10 lg:pt-12">
         <h1
-          className="text-3xl sm:text-4xl md:text-6xl 
-               tracking-[0.08em] md:tracking-[0.15em] 
-               font-serif text-center px-4 break-words"
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl
+               tracking-[0.08em] md:tracking-[0.12em]
+               font-serif text-center px-4"
         >
           DILIP BHAKTAVATSALAM
         </h1>
@@ -21,15 +21,15 @@ function Home() {
       </div>
 
       {/* ===== Split Section (Fills Remaining Space) ===== */}
-      <div className="flex-1 flex flex-col lg:flex-row p-4 lg:p-8 gap-6 lg:gap-8">
+      <div className="flex-1 flex flex-col xl:flex-row p-4 sm:p-6 lg:p-8 gap-6 lg:gap-8 w-full">
         {/* ===== Architect Panel ===== */}
         <div
-          className="w-full lg:w-1/2 
-           h-[320px] sm:h-[380px] md:h-[420px] lg:h-auto
-           relative cursor-pointer group overflow-hidden
-           rounded-2xl border border-neutral-700
-           hover:border-[#D4AF37]
-           transition-all duration-500"
+          className="w-full xl:w-1/2
+             aspect-[4/3] sm:aspect-[16/9] xl:aspect-auto
+             relative cursor-pointer group overflow-hidden
+             rounded-2xl border border-neutral-700
+             hover:border-[#D4AF37]
+             transition-all duration-500"
           onClick={() => navigate("/business")}
         >
           {/* Background Image */}
@@ -77,12 +77,12 @@ function Home() {
 
         {/* ===== Sport Panel ===== */}
         <div
-          className="w-full lg:w-1/2 
-           h-[320px] sm:h-[380px] md:h-[420px] lg:h-auto
-           relative cursor-pointer group overflow-hidden
-           rounded-2xl border border-neutral-700
-           hover:border-[#D4AF37]
-           transition-all duration-500"
+          className="w-full xl:w-1/2
+             aspect-[4/3] sm:aspect-[16/9] xl:aspect-auto
+             relative cursor-pointer group overflow-hidden
+             rounded-2xl border border-neutral-700
+             hover:border-[#D4AF37]
+             transition-all duration-500"
           onClick={() => navigate("/sport")}
         >
           {/* Background Image */}
@@ -113,7 +113,7 @@ function Home() {
            text-left"
           >
             <h2 className="text-3xl md:text-4xl text-white drop-shadow-lg">
-              Sportsperson by Passion
+              Athlete by Passion
             </h2>
 
             <p
