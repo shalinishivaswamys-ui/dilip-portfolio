@@ -4,7 +4,7 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="h-screen bg-[#0F0F0F] text-[#F5F5F5] flex flex-col">
+    <div className="min-h-screen lg:h-screen bg-[#0F0F0F] text-[#F5F5F5] flex flex-col">
       {/* ===== Identity Section (Top) ===== */}
       <div className="text-center pt-12">
         <h1 className="text-5xl md:text-6xl tracking-[0.15em] font-serif">
@@ -17,7 +17,7 @@ function Home() {
       </div>
 
       {/* ===== Split Section (Fills Remaining Space) ===== */}
-      <div className="flex-1 flex p-8 gap-8">
+      <div className="flex-1 flex flex-col lg:flex-row p-4 lg:p-8 gap-6 lg:gap-8">
         {/* ===== Architect Panel ===== */}
         <div
           className="w-1/2 relative cursor-pointer group overflow-hidden 
