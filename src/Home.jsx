@@ -7,7 +7,11 @@ function Home() {
     <div className="min-h-screen lg:h-screen bg-[#0F0F0F] text-[#F5F5F5] flex flex-col">
       {/* ===== Identity Section (Top) ===== */}
       <div className="text-center pt-12">
-        <h1 className="text-5xl md:text-6xl tracking-[0.15em] font-serif">
+        <h1
+          className="text-3xl sm:text-4xl md:text-6xl 
+               tracking-[0.08em] md:tracking-[0.15em] 
+               font-serif text-center px-4 break-words"
+        >
           DILIP BHAKTAVATSALAM
         </h1>
 
@@ -20,7 +24,7 @@ function Home() {
       <div className="flex-1 flex flex-col lg:flex-row p-4 lg:p-8 gap-6 lg:gap-8">
         {/* ===== Architect Panel ===== */}
         <div
-          className="w-1/2 relative cursor-pointer group overflow-hidden 
+          className="w-full lg:w-1/2 relative cursor-pointer group overflow-hidden 
                      rounded-2xl border border-neutral-700 
                      hover:border-[#D4AF37] 
                      transition-all duration-500"
@@ -46,7 +50,13 @@ function Home() {
           ></div>
 
           {/* Content */}
-          <div className="relative z-10 flex flex-col justify-start pt-16 px-12 text-left">
+          <div
+            className="relative z-10 flex flex-col 
+           justify-center lg:justify-start
+           px-6 lg:px-12
+           py-10 lg:pt-16
+           text-left"
+          >
             <h2 className="text-3xl md:text-4xl text-white drop-shadow-lg">
               Architect by Profession
             </h2>
@@ -65,7 +75,7 @@ function Home() {
 
         {/* ===== Sport Panel ===== */}
         <div
-          className="w-1/2 relative cursor-pointer group overflow-hidden 
+          className="w-full lg:w-1/2 relative cursor-pointer group overflow-hidden 
                      rounded-2xl border border-neutral-700 
                      hover:border-[#D4AF37] 
                      transition-all duration-500"
@@ -91,7 +101,13 @@ function Home() {
           ></div>
 
           {/* Content */}
-          <div className="relative z-10 flex flex-col justify-start pt-16 px-12 text-left">
+          <div
+            className="relative z-10 flex flex-col 
+           justify-center lg:justify-start
+           px-6 lg:px-12
+           py-10 lg:pt-16
+           text-left"
+          >
             <h2 className="text-3xl md:text-4xl text-white drop-shadow-lg">
               Sportsperson by Passion
             </h2>

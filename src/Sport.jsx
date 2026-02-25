@@ -10,7 +10,7 @@ function Sport() {
   return (
     <div className="min-h-screen lg:h-screen bg-[#0F0F0F] text-[#F5F5F5] px-4 sm:px-6 md:px-12 lg:px-20 flex flex-col">
       {/* Top Section */}
-      <div className="pt-10">
+      <div className="pt-10 mb-8 lg:mb-12">
         <Link
           to="/"
           className="text-[#D4AF37] tracking-wide hover:opacity-80 transition"
@@ -29,7 +29,7 @@ function Sport() {
       {/* Main Content Fills Remaining Space */}
       <div className="flex-1 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
         {/* LEFT SIDE */}
-        <div>
+        <div className="order-2 lg:order-1">
           <p className="text-[#A0A0A0] leading-relaxed text-lg">
             Beyond my architectural practice, I pursue competitive shooting from
             a deep respect for the discipline and technical precision the sport
@@ -61,7 +61,7 @@ function Sport() {
         </div>
 
         {/* RIGHT SIDE */}
-        <div>
+        <div className="order-1 lg:order-2">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             navigation
